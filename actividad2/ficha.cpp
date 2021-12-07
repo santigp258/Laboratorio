@@ -100,19 +100,20 @@ void Ficha::calcularCantidadConsumir() {
 
     double proteina;
     double carbo;
+    bool evaluarSexo = sexo == "M" || sexo == "m";
 
-    if (sexo == "M" && altura >= 160 && peso >= 150) {
+    if (evaluarSexo && altura >= 160 && peso >= 150) {
         proteina = altura * 0.45;
         carbo = peso * 0.50;
-    } else if (sexo == "M" && altura < 160 && peso < 150) {
+    } else if (evaluarSexo  && altura < 160 && peso < 150) {
         proteina = altura * 0.35;
         carbo = peso * 0.60;
 
-    } else if (sexo == "F" && altura >= 150 && peso >= 130) {
+    } else if (evaluarSexo  && altura >= 150 && peso >= 130) {
         proteina = altura * 0.30;
         carbo = peso * 0.75;
 
-    } else if (sexo == "F" && altura < 150 && peso < 130) {
+    } else if (evaluarSexo && altura < 150 && peso < 130) {
         proteina = altura * 0.40;
         carbo = peso * 0.65;
     } else {
