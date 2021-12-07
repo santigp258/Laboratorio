@@ -1,0 +1,3 @@
+C:/Users/santi/Documents/c++/laboratorio/actividad2/cmake-build-debug/CMakeFiles/actividad2.dir
+C:/Users/santi/Documents/c++/laboratorio/actividad2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/santi/Documents/c++/laboratorio/actividad2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
