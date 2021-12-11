@@ -1,0 +1,1 @@
+enum vehiculosType{camion=0,moto, carro, bicicleta };
