@@ -2,5 +2,6 @@
 - la fórmula que se aplica cuando el sexo es femenino es:  numPulsaciones = ``(220 − edad)/10``.
 si el sexo es masculino:   numPulsaciones = ``(210 − edad)/10``
 
-#Output
+# Output
+
 ![img.png](images/img.png)
